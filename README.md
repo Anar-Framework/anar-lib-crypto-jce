@@ -1,4 +1,15 @@
-### JCE Cryptography Library
+### JCE Cryptography Library of Anar Framework
+
+#### Usage Guide
+
+```
+		<dependency>
+	               <groupId>af.gov.anar.lib.audit</groupId>
+	                <artifactId>anar-lib-audit</artifactId>
+                        <version>${project.version}</version>
+		</dependency>
+
+``` 
 
 #### Features
 
@@ -8,4 +19,10 @@
 - Utility classes for Crypto management
 - JWS Factory
 - HMAC Utilities
-- And More
+
+
+#### Documentation
+
+Refer to this repository **Wiki** section.
+https://github.com/Anar-Framework/anar-lib-crypto-jce/wiki
+
