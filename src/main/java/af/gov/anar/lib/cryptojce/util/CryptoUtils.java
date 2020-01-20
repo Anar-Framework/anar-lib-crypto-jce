@@ -1,7 +1,7 @@
 package af.gov.anar.lib.cryptojce.util;
 
-import af.gov.anar.lib.cryptojce.exception.crypto.exception.InvalidDataException;
-import af.gov.anar.lib.cryptojce.exception.crypto.exception.NullDataException;
+import af.gov.anar.lib.cryptojce.exception.InvalidDataException;
+import af.gov.anar.lib.cryptojce.exception.NullDataException;
 
 public class CryptoUtils {
 

@@ -1,23 +1,18 @@
-/*
- * 
- * 
- * 
- * 
- */
-package af.gov.anar.lib.cryptojce.exception.crypto.exception;
+
+package af.gov.anar.lib.cryptojce.exception;
 
 
-import af.gov.anar.lib.cryptojce.exception.common.BaseUncheckedException;
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
 
 /**
- * {@link Exception} to be thrown when data is invalid
+ * {@link Exception} to be thrown when key is invalid
  */
-public class InvalidDataException extends BaseUncheckedException {
+public class InvalidKeyException extends BaseUncheckedException {
 
 	/**
 	 * Unique id for serialization
 	 */
-	private static final long serialVersionUID = 1650218542197755276L;
+	private static final long serialVersionUID = -3556229489431119187L;
 
 	/**
 	 * Constructor with errorCode and errorMessage
@@ -25,7 +20,7 @@ public class InvalidDataException extends BaseUncheckedException {
 	 * @param errorCode    The error code for this exception
 	 * @param errorMessage The error message for this exception
 	 */
-	public InvalidDataException(String errorCode, String errorMessage) {
+	public InvalidKeyException(String errorCode, String errorMessage) {
 		super(errorCode, errorMessage);
 	}
 
@@ -36,8 +31,7 @@ public class InvalidDataException extends BaseUncheckedException {
 	 * @param errorMessage The error message for this exception
 	 * @param rootCause    Cause of this exception
 	 */
-	public InvalidDataException(String errorCode, String errorMessage, Throwable rootCause) {
+	public InvalidKeyException(String errorCode, String errorMessage, Throwable rootCause) {
 		super(errorCode, errorMessage, rootCause);
 	}
-
 }

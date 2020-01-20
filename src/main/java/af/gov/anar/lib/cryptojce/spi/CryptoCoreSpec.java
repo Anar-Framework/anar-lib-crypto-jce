@@ -1,4 +1,4 @@
-package af.gov.anar.lib.cryptojce.exception.crypto.spi;
+package af.gov.anar.lib.cryptojce.spi;
 
 /**
  * This interface is specification for <b> Core Cryptographic Operations</b>.

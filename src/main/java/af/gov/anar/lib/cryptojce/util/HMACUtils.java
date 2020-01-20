@@ -1,9 +1,7 @@
-/**
- * 
- */
+
 package af.gov.anar.lib.cryptojce.util;
 
-import af.gov.anar.lib.cryptojce.exception.common.NoSuchAlgorithmException;
+import af.gov.anar.lang.infrastructure.exception.common.NoSuchAlgorithmException;
 import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.SecretKeyFactory;
@@ -62,7 +60,7 @@ public final class HMACUtils {
 	/**
 	 * Return the digest as a plain text with Salt
 	 * 
-	 * @param bytes digest bytes
+	 * @param password digest bytes
 	 * @param salt  digest bytes
 	 * @return String converted digest as plain text
 	 */
@@ -106,8 +104,8 @@ public final class HMACUtils {
 		try {
 			messageDigest = messageDigest != null ? messageDigest : MessageDigest.getInstance(HMAC_ALGORITHM_NAME);
 		} catch (java.security.NoSuchAlgorithmException exception) {
-			throw new NoSuchAlgorithmException(HMACUtilConstants.PHOENIX_NO_SUCH_ALGORITHM_ERROR_CODE.getErrorCode(),
-					HMACUtilConstants.PHOENIX_NO_SUCH_ALGORITHM_ERROR_CODE.getErrorMessage(), exception.getCause());
+			throw new NoSuchAlgorithmException(HMACUtilConstants.ANAR_NO_SUCH_ALGORITHM_ERROR_CODE.getErrorCode(),
+					HMACUtilConstants.ANAR_NO_SUCH_ALGORITHM_ERROR_CODE.getErrorMessage(), exception.getCause());
 		}
 	}
 

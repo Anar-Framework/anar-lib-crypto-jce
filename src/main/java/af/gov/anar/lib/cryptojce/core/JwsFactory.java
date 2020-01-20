@@ -1,6 +1,6 @@
 package af.gov.anar.lib.cryptojce.core;
 
-import af.gov.anar.lib.cryptojce.exception.crypto.spi.JwsSpec;
+import af.gov.anar.lib.cryptojce.spi.JwsSpec;
 import af.gov.anar.lib.cryptojce.util.JWSValidation;
 
 import java.security.PrivateKey;

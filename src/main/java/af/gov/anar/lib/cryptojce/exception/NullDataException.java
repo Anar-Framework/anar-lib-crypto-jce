@@ -1,13 +1,8 @@
-/*
- * 
- * 
- * 
- * 
- */
-package af.gov.anar.lib.cryptojce.exception.crypto.exception;
+
+package af.gov.anar.lib.cryptojce.exception;
 
 
-import af.gov.anar.lib.cryptojce.exception.common.BaseUncheckedException;
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
 
 /**
  * {@link Exception} to be thrown when data is null

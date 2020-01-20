@@ -8,7 +8,7 @@ import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
 
-import af.gov.anar.lib.cryptojce.exception.crypto.spi.JwsSpec;
+import af.gov.anar.lib.cryptojce.spi.JwsSpec;
 import org.jose4j.jws.AlgorithmIdentifiers;
 import org.jose4j.jws.JsonWebSignature;
 import org.jose4j.lang.JoseException;

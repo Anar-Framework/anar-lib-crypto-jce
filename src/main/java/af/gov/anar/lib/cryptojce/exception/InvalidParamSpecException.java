@@ -1,20 +1,13 @@
-/*
- * 
- * 
- * 
- * 
- */
-package af.gov.anar.lib.cryptojce.exception.crypto.exception;
+
+package af.gov.anar.lib.cryptojce.exception;
 
 
-import af.gov.anar.lib.cryptojce.exception.common.BaseUncheckedException;
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
 
 /**
  * {@link Exception} to be thrown when params are invalid
- * 
-
  */
-public class SignatureException extends BaseUncheckedException {
+public class InvalidParamSpecException extends BaseUncheckedException {
 
 	/**
 	 * Unique id for serialization
@@ -27,7 +20,7 @@ public class SignatureException extends BaseUncheckedException {
 	 * @param errorCode    The error code for this exception
 	 * @param errorMessage The error message for this exception
 	 */
-	public SignatureException(String errorCode, String errorMessage) {
+	public InvalidParamSpecException(String errorCode, String errorMessage) {
 		super(errorCode, errorMessage);
 	}
 
@@ -38,7 +31,7 @@ public class SignatureException extends BaseUncheckedException {
 	 * @param errorMessage The error message for this exception
 	 * @param rootCause    Cause of this exception
 	 */
-	public SignatureException(String errorCode, String errorMessage, Throwable rootCause) {
+	public InvalidParamSpecException(String errorCode, String errorMessage, Throwable rootCause) {
 		super(errorCode, errorMessage, rootCause);
 	}
 

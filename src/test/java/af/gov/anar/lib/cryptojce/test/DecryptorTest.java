@@ -12,8 +12,8 @@ import java.security.SecureRandom;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-import af.gov.anar.lib.cryptojce.exception.crypto.exception.InvalidDataException;
-import af.gov.anar.lib.cryptojce.exception.crypto.spi.CryptoCoreSpec;
+import af.gov.anar.lib.cryptojce.exception.InvalidDataException;
+import af.gov.anar.lib.cryptojce.spi.CryptoCoreSpec;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

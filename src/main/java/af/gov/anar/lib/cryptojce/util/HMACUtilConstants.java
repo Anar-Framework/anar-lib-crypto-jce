@@ -1,7 +1,7 @@
 package af.gov.anar.lib.cryptojce.util;
 
 public enum HMACUtilConstants {
-	PHOENIX_NO_SUCH_ALGORITHM_ERROR_CODE("KER-UTL-203", "No such algorithm for the input");
+	ANAR_NO_SUCH_ALGORITHM_ERROR_CODE("KER-UTL-203", "No such algorithm for the input");
 
 	public final String errorCode;
 	public final String errorMessage;
