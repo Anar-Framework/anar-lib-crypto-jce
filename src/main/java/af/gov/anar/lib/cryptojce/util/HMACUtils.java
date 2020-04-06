@@ -1,7 +1,7 @@
 
 package af.gov.anar.lib.cryptojce.util;
 
-import af.gov.anar.lang.infrastructure.exception.common.NoSuchAlgorithmException;
+import af.gov.anar.core.infrastructure.exception.common.NoSuchAlgorithmException;
 import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.SecretKeyFactory;

@@ -2,7 +2,7 @@
 package af.gov.anar.lib.cryptojce.exception;
 
 
-import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
+import af.gov.anar.core.infrastructure.exception.common.BaseUncheckedException;
 
 /**
  * {@link Exception} to be thrown when key is invalid

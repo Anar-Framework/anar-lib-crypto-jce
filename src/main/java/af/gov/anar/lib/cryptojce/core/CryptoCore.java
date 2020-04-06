@@ -25,7 +25,7 @@ import javax.crypto.spec.PSource.PSpecified;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
 
-import af.gov.anar.lang.infrastructure.exception.common.NoSuchAlgorithmException;
+import af.gov.anar.core.infrastructure.exception.common.NoSuchAlgorithmException;
 import af.gov.anar.lib.cryptojce.exception.InvalidDataException;
 import af.gov.anar.lib.cryptojce.exception.InvalidKeyException;
 import af.gov.anar.lib.cryptojce.exception.InvalidParamSpecException;
